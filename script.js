@@ -21,4 +21,33 @@
 
 Проверить, чтобы все работало без ошибок в консоли */
 
-result = prompt("Сколько фильмов вы уже посмотрели?", 0);
+// let numberOfFilms;
+// numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?', 0);
+// console.log(numberOfFilms);
+
+// let personalMovieDB = {
+//      coount: numberOfFilms,
+//      movies: {},
+//      actors: {},
+//      genres: [],
+//      privat: false
+// };
+
+// console.log(personalMovieDB);
+
+// let filmName = prompt('Один из последних просмотренных фильмов?');
+// let filmRate =  prompt('На сколько оцените его?');
+
+// let movies = {
+//     [filmName]: filmRate
+// };
+// console.log(movies);
+
+const numberOfFilms = +prompt("Сколько фильмов Вы уже посмотрели?", "");
+
+
+
+
+
+
+
