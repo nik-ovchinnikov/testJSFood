@@ -25,21 +25,21 @@ const movieDB = {
     ]
 };
 
-const adv = document.getElementsByClassName('promo__adv');
+// const adv = document.getElementsByClassName('promo__adv');
 
-console.log(adv);
+// console.log(adv);
 
-const arr = ['sdfsd', 'sadfasd', 'sadfew1'];
+// const arr = ['sdfsd', 'sadfasd', 'sadfew1'];
 
-for (let i = 0; i < adv.length; i++) {
-    //console.log(advertise[i]);
-    adv[i].remove();
-}
+// for (let i = 0; i < adv.length; i++) {
+//     //console.log(advertise[i]);
+//     adv[i].remove();
+// }
 
-//   adv.forEach(item => {
-//           console.log(item);
-//       }
-//   );
+// //   adv.forEach(item => {
+// //           console.log(item);
+// //       }
+// //   );
 
 //==============================================
 
@@ -71,11 +71,19 @@ const filmsBlock = document.getElementsByClassName("promo__interactive-list");
 
 let filmArr = movieDB.movies;
 
+filmArr.sort();
+
 for (let j = 0; j <  filmArr.length; j++) {
     console.log(filmArr[j]);
     filmsBlock[0].insertAdjacentHTML("afterend", `<li class='promo__interactive-item'> ${filmArr.length - j}. ${filmArr[filmArr.length - 1 - j]}</li><br>`);
     //filmList[0].remove();
 }
+
+const adv = document.querySelectorAll('.promo__adv');
+
+adv.forEach(item => {
+    item.remove();
+});
 
 
 
