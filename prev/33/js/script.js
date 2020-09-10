@@ -152,6 +152,17 @@ function deleteElement (event) {
 
 
 
+//===============================для ожидания формирования до дерева
+
+document.addEventListener('DOMContentLoaded', () => {
+    //тут пишутся скрипты
+});
+
+//===============селекторы интересные
+addform = document.querySelectorAll("form");
+checkBox = addform.querySelector("[type='checkbox']");
+
+
 
 
 

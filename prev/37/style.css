@@ -1,0 +1,22 @@
+div {
+    height: 100px;
+    width: 100%;
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+button {
+    height: 80px;
+    width: 160px;
+    background-color:blue;
+    margin: 10px; 
+}
+
+.yellow {
+    
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
